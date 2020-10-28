@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   .section-heading h2 {
-    font-size: 50px;
+    font-size: 32px;
   }
 }
 .section-heading h3 {
