@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #qbootstrap-header .navbar-brand {
     color: #FF847C !important;
+    font-size: 24px !important;
   }
   #qbootstrap-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
