@@ -345,6 +345,7 @@ h1, h2, h3, h4, h5, h6 {
   .video-hero {
     heifght: inherit;
     padding: 3em 0;
+    background-position-x: -130px !important;
   }
 }
 .qbootstrap-cover .display-t,
