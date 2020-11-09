@@ -252,7 +252,7 @@
 	
 
 	// Set the date we're counting down to
-		var countDownDate = new Date("Nov 27, 2020 00:00:00").getTime();
+		var countDownDate = new Date("Oct 27, 2020 00:00:00").getTime();
 
 		// Update the count down every 1 second
 		var x = setInterval(function() {
@@ -282,7 +282,11 @@
 		// If the count down is finished, write some text 
 		if (distance < 0) {
 		 clearInterval(x);
-		 document.getElementById("demo").innerHTML = "Its a wrap!";
+		 // document.getElementById("demo").innerHTML = "Its a wrap!";
+		 
+		 $("#timer").hide();
+		 $("#go-live").show();
+		 
 		}
 		}, 1000);	
 	
