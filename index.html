@@ -54,6 +54,7 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/flexslider.css">
 	
 	<link rel="stylesheet" href="css/style.css">
 
@@ -82,9 +83,9 @@
 	            <li><a href="#" data-nav-section="story"><span>Love Story</span></a></li>
 	            <!-- <li><a href="#" data-nav-section="greetings"><span>Greetings</span></a></li> -->
 	            <!-- <li><a href="#" data-nav-section="people"><span>People</span></a></li> -->
-	            <li><a href="#" data-nav-section="when-where"><span>When &amp; Where</span></a></li>
+	            <!-- <li><a href="#" data-nav-section="when-where"><span>When &amp; Where</span></a></li> -->
 	            <!-- <li><a href="#" data-nav-section="rsvp"><span>RSVP</span></a></li> -->
-	            <!-- <li><a href="#" data-nav-section="gallery"><span>Gallery</span></a></li> -->
+	            <li><a href="#" data-nav-section="gallery"><span>Gallery</span></a></li>
 	            <!-- <li><a href="#" data-nav-section="blog"><span>Blog</span></a></li> -->
 	          </ul>
 	        </div>
@@ -94,18 +95,50 @@
 	</header>
 	
 	<div class="qbootstrap-hero" data-section="home">
-		<div class="qbootstrap-overlay"></div>
-		<div class="qbootstrap-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_3.jpg);">
+		<div class="qbootstrap-overlay flexslider">
+			<ul class="slides">
+			    <li>
+			      <img src="images/slider/01.jpg" />
+			    </li>
+			    <li>
+			      <img src="images/slider/02.jpg" />
+			    </li>
+			    <li>
+			      <img src="images/slider/03.jpg" />
+			    </li>
+			    <li>
+			      <img src="images/slider/04.jpg" />
+			    </li>
+			    <li>
+			      <img src="images/slider/05.jpg" />
+			    </li>
+			    <li>
+			      <img src="images/slider/06.jpg" />
+			    </li>
+			    <li>
+			      <img src="images/slider/07.jpg" />
+			    </li>
+			    <li>
+			      <img src="images/slider/08.jpg" />
+			    </li>
+			    <li>
+			      <img src="images/slider/10.jpg" />
+			    </li>
+			  </ul>
+		</div>
+		<div class="qbootstrap-cover text-center">
 			<div class="display-t">
 				<div class="display-tc">
 					<div class="container">
 						<div class="col-md-10 col-md-offset-1">
 							<div class="animate-box svg-sm colored">
-								<img src="images/wedding_logo_small.png" class="svg" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
+								<img src="images/wedding_logo_small.png" class="svg">
 								</br></br>
-								<h1 class="holder"><span>The Wedding of</span></h1>
+								<h1 class="holder">
+									<span>The Wedding of</span>
+								</h1>
 								<h2>Vipul Saxena &amp; Garima Dhawan</h2>
-								<p>JOIN US AS WE CELEBRATE LIFE AND LOVE</p>
+								<p>27TH NOVEMBER 2020</p>
 							</div>
 						</div>
 					</div>
@@ -114,63 +147,26 @@
 		</div>
 	</div>
 
-	<div id="qbootstrap-couple" class="qbootstrap-section-gray">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 animate-box">
-					<div class="col-md-12 text-center section-heading svg-sm colored">
-						<img src="images/005-two.svg" class="svg" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h2>#VipulAndGarimaTieTheKnot</h2>
-						<h3>Started from the bottom, now we're here.</h3>
-						<p>They say, marriage is a journey but for us, marriage is the destination. Ladies and Gentlemen, we have arrived. We have found a home base, so to speak. What bloomed in 2018 has borne fruit. And you get a slice! And you get a slice! And you get a slice! </br></br> We would have loved it if all of you could have been a part of our most important day but due to these trying times, we have decided to have just a handful of people with us. So, the rest of you can join us virtually.</p>
-					
-						<!-- <a type="submit" class="btn btn-default" href="https://www.google.com/calendar/render?action=TEMPLATE&text=VipulAndGarimaTieTheKnot&details=We+began+our+journey+in+2018+and+now+we+want+to+take+it+up+a+notch%21+We+wanted+you+to+be+part+of+our+most+important+day+with+us+at+the+venue+but+given+the+situations%2C+we%27ve+decided+to+keep+the+no.+of+attendees+low.+And+so+we%27re+trying+to+go+digital+instead.+So+be+there+or+be+here+%28Virtually%29+to+attend+the+live+stream+of+our+ceremony.+%0A%0AHighlights+only+%3A%29%0A%0AWe%27ll+be+adding+Youtube%2FZoom+link+before+the+wedding+on+our+website+www.VipulAndGarimaTieTheKnot.com&dates=20201127T073000Z%2F20201127T173000Z" target="_blank" >Remind me</a> -->
-
-					</div>
-				</div>
-			</div>
-			<div class="row animate-box">
+<!-- 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="col-md-5 col-sm-5 col-xs-5 nopadding">
-						<img src="images/groom1.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
+						<img src="images/groom1.jpg" class="img-responsive">
 						<h3>Vipul Saxena</h3>
 						<span> Groom </span>
 					</div>
-					<div class="col-md-2 col-sm-2 col-xs-2 nopadding"><h2 class="amp-center"><img src="images/003-luxury.svg" class="svg img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com"></h2></div>
+					<div class="col-md-2 col-sm-2 col-xs-2 nopadding"><h2 class="amp-center"><img src="images/003-luxury.svg" class="svg img-responsive"></h2></div>
 					<div class="col-md-5 col-sm-5 col-xs-5 nopadding">
-						<img src="images/bride1.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
+						<img src="images/bride1.jpg" class="img-responsive">
 						<h3>Garima Dhawan</h3>
 						<span> Bride </span>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-	
+			</div> -->
+<!-- 	
 	<div id="qbootstrap-countdown" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_2.jpg);" data-section="wedding-day">
 		<div class="overlay"></div>
 		<div class="display-over">
-			<div class="container" id="timer">
-				<div class="row animate-box">
-					<div class="col-md-12 section-heading text-center svg-sm colored">
-						<img src="images/006-flower-bell-outline-design-variant-with-vines-and-leaves.svg" class="svg" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h2 class="">The Wedding Day</h2>
-						<span class="datewed">Friday, Nov. 27, 2020</span>
-					</div>
-				</div>
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center">
-						<p class="countdown" id="demo">
-							<span id="days"></span>
-							<span id="hours"></span>
-							<span id="minutes"></span>
-							<span id="seconds"></span>
-						</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="container" id="go-live" style="display: none;">
+			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-12 section-heading text-center svg-sm colored">
 						<img src="images/006-flower-bell-outline-design-variant-with-vines-and-leaves.svg" class="svg" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
@@ -179,19 +175,18 @@
 						<span class="datewed">Sorry we couldn't stream the whole thing. Above is just a glimps of our engagement ceremony. We'll post pictures and videos from the wedding soon :)</span>
 						</br>
 						</br>
-						
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div id="qbootstrap-groom-bride" data-section="groom-bride">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="col-md-12 text-center section-heading svg-sm-2 colored">
-						<img src="images/clipart.png" class="svg" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
+						<img src="images/clipart.png" class="svg">
 						<h2>Groom &amp; Bride</h2>
 					</div>
 				</div>
@@ -199,7 +194,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="couple groom text-center animate-box">
-						<img src="images/groom.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
+						<img src="images/groom.jpg" class="img-responsive">
 						<div class="desc">
 							<h2>Vipul Saxena</h2>
 							<p>It’s only fitting that my first work crush ended up being my last. I saw Garima as she walked into the workplace, and immediately but unsuccessfully attempted to make her mine. I guess it just wasn’t our time. We slaved away at work for a while and then we followed different roads - I obviously took the fun road. Some time down the line, to my great surprise, Garima resurfaced from what I imagined to be a white abode in the clouds, as I was going through some dark days back then. She became a consistent figure in my life thereafter and shone brighter than the sun. Days turned to months and months to years to a point where I now know that my to-be wife likes pasta and Netflix more than me.</p>
@@ -213,7 +208,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="couple bride text-center animate-box">
-						<img src="images/bride.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
+						<img src="images/bride.jpg" class="img-responsive">
 						<div class="desc">
 							<h2>Garima Dhawan</h2>
 							<p>It all started with a little love and some tenderness. It was just yesterday, I saw you sitting there, your head was down, your eyes were red. No comb had touched your hair. You were on your little computer designing things or whatever it is that you do. When you picked me up in your Brio and took me for our very first date to Neemrana, how did all that happen? And now it’s been almost 4 years. I know a thing or two about you now like how my husband to be will listen to his friends for Netflix recommendations when I have been recommending the same show to him for eons? He would go, “Isn’t this show great, babe? My friend told me about it”. That’s when I wanted to gut him, but when he asked to Hold My Hand for the rest of my life, I instantly knew I wanted to love him the best I could.</p>
@@ -234,7 +229,7 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="col-md-12 text-center section-heading svg-sm-2">
-						<img src="images/003-luxury.svg" class="svg" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
+						<img src="images/003-luxury.svg" class="svg">
 						<h2>Our Love Story</h2>
 					</div>
 				</div>
@@ -294,261 +289,35 @@
 								</div>
 							</div>
 						</li>
+						<li class="animate-box">
+							<div class="timeline-badge" style="background-image:url(images/couple-5.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="overlay"></div>
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Hitched!</h3>
+									<span class="date">November 27, 2020</span>
+								</div>
+								<div class="timeline-body">
+									<p>And it was no less than a fairytale for us, and whatever hurdles you could imagine, no matter how hard it was, we just managed to breeze through it. Just so we could start our Forever after. Since then it has been nothing less than a beautiful journey. </p>
+								</div>
+							</div>
+						</li>
 			    	</ul>
 				</div>
 			</div>
 		</div>
 	</div>
-	
-<!-- 
-	<div id="qbootstrap-testimonials" class="qbootstrap-greetings" data-section="greetings" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
-	<div class="overlay"></div>	
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-12 section-heading text-center svg-sm colored">
-					<img src="images/006-flower-bell-outline-design-variant-with-vines-and-leaves.svg" class="svg" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-					<h2 class="">Sweet Messages</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 animate-box">
-					<div class="box-testimony ">
-						<blockquote>
-							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-						</blockquote>
-						<p class="author">John Doe</p>
-					</div>
-					
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="box-testimony ">
-						<blockquote>
-							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;</p>
-						</blockquote>
-						<p class="author">John Doe</p>
-					</div>
-					
-					
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="box-testimony ">
-						<blockquote>
-							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-						</blockquote>
-						<p class="author">John Doe</p>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</div> -->
 
-<!-- 	<div id="qbootstrap-people" data-section="people">
+	<div id="qbootstrap-gallery" data-section="gallery">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="col-md-12 text-center section-heading svg-sm colored">
 						<img src="images/005-two.svg" class="svg" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h2>The Groomsmen</h2>
-						<div class="row">
-						<div class="col-md-10 col-md-offset-1 subtext  ">
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
-						</div>
-					</div>
-					</div>
-				</div>
-			</div>
-			<div class="row row-bottom-padded-lg">
-				<div class="col-md-3 text-center animate-box">
-					<div class="groom-men">
-						<img src="images/groom-men-1.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h3>Ian Bill</h3>
-					</div>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<div class="groom-men">
-						<img src="images/groom-men-2.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h3>George Smith</h3>
-					</div>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<div class="groom-men">
-						<img src="images/groom-men-3.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h3>Brian Thompson</h3>
-					</div>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<div class="groom-men">
-						<img src="images/groom-men-4.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h3>David Howard</h3>
-					</div>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="col-md-12 text-center section-heading svg-sm colored">
-						<img src="images/005-two.svg" class="svg" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h2>The Bridesmaid</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3 text-center animate-box">
-					<div class="groom-men">
-						<img src="images/bridesmaid-1.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h3>Angel Thomas</h3>
-					</div>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<div class="groom-men">
-						<img src="images/bridesmaid-2.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h3>Kathy Shol</h3>
-					</div>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<div class="groom-men">
-						<img src="images/bridesmaid-3.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h3>Rose Mel</h3>
-					</div>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<div class="groom-men">
-						<img src="images/bridesmaid-4.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h3>Ann Hathway</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<div id="qbootstrap-when-where" data-section="when-where">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="col-md-12 text-center section-heading svg-sm colored">
-						<img src="images/005-two.svg" class="svg" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h2>Ceremony &amp; Party</h2>
+						<h2>Gallery</h2>
 						<div class="row">
 						<div class="col-md-10 col-md-offset-1 subtext">
-							<h3>Take a look at our wedding schedule! And block your calendar. We hope you will return to this site to look at our wedding highlights soon. </h3>
-						</div>
-					</div>
-					</div>
-				</div>
-			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-6 text-center animate-box">
-					<div class="wedding-events">
-						<div class="desc">
-							<h3>Engagement Ceremony</h3>
-							<div class="row">
-								<div class="col-md-2 col-md-push-5">
-									<div class="icon-tip">
-										<span class="icon"><i class="icon-heart-o"></i></span>
-									</div>
-								</div>
-								<div class="col-md-5 col-md-pull-1">
-									<div class="date">
-										<i class="icon-calendar"></i>
-										<span>Friday</span>
-										<span>27 Nov. 2020</span>
-									</div>
-								</div>
-								<div class="col-md-5 col-md-pull-1">
-									<div class="date">
-										<i class="icon-clock2"></i>
-										<span>1:00 PM</span>
-										<span>3:00 PM</span>
-									</div>
-								</div>
-								<p>I won’t be able to put my hand up during ‘Single Ladies’ after 1 o’clock on the 27th. But, I’m not sad cause I’ll be Beyonce with an F.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 text-center animate-box">
-					<div class="wedding-events">
-						<div class="desc">
-							<h3>Wedding Party</h3>
-							<div class="row">
-								<div class="col-md-2 col-md-push-5">
-									<div class="icon-tip">
-										<span class="icon"><i class="icon-heart-o"></i></span>
-									</div>
-								</div>
-								<div class="col-md-5 col-md-pull-1">
-									<div class="date">
-										<i class="icon-calendar"></i>
-										<span>Friday</span>
-										<span>27 Nov. 2020</span>
-									</div>
-								</div>
-								<div class="col-md-5 col-md-pull-1">
-									<div class="date">
-										<i class="icon-clock2"></i>
-										<span>9:00 PM</span>
-										<span>12:00 PM</span>
-									</div>
-								</div>
-								<p>At this time, we will circle 7 times in front of God to forever cherish and respect each other. Because after this, you will have my whole heart for my whole life.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div id="map" class="qbootstrap-map"></div>
-				</div>
-			</div>
-		</div>
-		</div>
-	</div>
-
-	
-
-	<div id="qbootstrap-started" class="qbootstrap-bg" data-section="rsvp" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="col-md-12 text-center section-heading svg-sm colored">
-						<img src="images/wedding_logo_small.png" class="svg" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						</br></br>
-						<h2>You Are Invited</h2>
-						<div class="row">
-						<div class="col-md-10 col-md-offset-1 subtext">
-							<h3>We hope you love our effort of keeping you with us even if it is virtually. Please come and be part of our happy day. </h3>
-						</div>
-					</div>
-					</div>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-10 col-md-offset-1">
-					<form class="form-inline">
-						<div class="col-md-12 col-sm-12">
-							<!-- <a type="submit" target="_blank" class="btn btn-default btn-block" href="https://www.google.com/calendar/render?action=TEMPLATE&text=VipulAndGarimaTieTheKnot&details=We+began+our+journey+in+2018+and+now+we+want+to+take+it+up+a+notch%21+We+wanted+you+to+be+part+of+our+most+important+day+with+us+at+the+venue+but+given+the+situations%2C+we%27ve+decided+to+keep+the+no.+of+attendees+low.+And+so+we%27re+trying+to+go+digital+instead.+So+be+there+or+be+here+%28Virtually%29+to+attend+the+live+stream+of+our+ceremony.+%0A%0AHighlights+only+%3A%29%0A%0AWe%27ll+be+adding+Youtube%2FZoom+link+before+the+wedding+on+our+website+www.VipulAndGarimaTieTheKnot.com&dates=20201127T073000Z%2F20201127T173000Z">Remind me</a> -->
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-
-<!-- 	<div id="qbootstrap-gallery" data-section="gallery">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="col-md-12 text-center section-heading svg-sm colored">
-						<img src="images/005-two.svg" class="svg" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h2>Our Selfie Photos</h2>
-						<div class="row">
-						<div class="col-md-10 col-md-offset-1 subtext">
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+							<h3>We couldn't be happier to share highlights from our special day.</h3>
 						</div>
 					</div>
 					</div>
@@ -559,45 +328,78 @@
 			<div class="row">
 				<div class="col-md-3 col-sm-6">
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup image-popup" href="images/gallery-1.jpg"><img src="images/gallery-1.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com"></a>
+						<a class="gallery-img image-popup" href="images/gallery-1.jpg"><img src="images/gallery-1.jpg" class="img-responsive"></a>
 					</div>
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/gallery-10.jpg"><img src="images/gallery-10.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com"></a>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/gallery-6.jpg"><img src="images/gallery-6.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com"></a>
+						<a class="gallery-img image-popup" href="images/gallery-2.jpg"><img src="images/gallery-2.jpg" class="img-responsive"></a>
 					</div>
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/gallery-2.jpg"><img src="images/gallery-2.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com"></a>
+						<a class="gallery-img image-popup" href="images/gallery-3.jpg"><img src="images/gallery-3.jpg" class="img-responsive"></a>
 					</div>
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/gallery-5.jpg"><img src="images/gallery-5.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com"></a>
+						<a class="gallery-img image-popup" href="images/gallery-4.jpg"><img src="images/gallery-4.jpg" class="img-responsive"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-5.jpg"><img src="images/gallery-5.jpg" class="img-responsive"></a>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/gallery-7.jpg"><img src="images/gallery-7.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com"></a>
+						<a class="gallery-img image-popup" href="images/gallery-6.jpg"><img src="images/gallery-6.jpg" class="img-responsive"></a>
 					</div>
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/gallery-3.jpg"><img src="images/gallery-3.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com"></a>
+						<a class="gallery-img image-popup" href="images/gallery-7.jpg"><img src="images/gallery-7.jpg" class="img-responsive"></a>
 					</div>
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/gallery-4.jpg"><img src="images/gallery-4.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com"></a>
+						<a class="gallery-img image-popup" href="images/gallery-8.jpg"><img src="images/gallery-8.jpg" class="img-responsive"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-9.jpg"><img src="images/gallery-9.jpg" class="img-responsive"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-10.jpg"><img src="images/gallery-10.jpg" class="img-responsive"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-11.jpg"><img src="images/gallery-11.jpg" class="img-responsive"></a>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/gallery-8.jpg"><img src="images/gallery-8.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com"></a>
+						<a class="gallery-img image-popup" href="images/gallery-12.jpg"><img src="images/gallery-12.jpg" class="img-responsive"></a>
 					</div>
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/gallery-9.jpg"><img src="images/gallery-9.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by QBootstrap.com"></a>
+						<a class="gallery-img image-popup" href="images/gallery-13.jpg"><img src="images/gallery-13.jpg" class="img-responsive"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-14.jpg"><img src="images/gallery-14.jpg" class="img-responsive"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-15.jpg"><img src="images/gallery-15.jpg" class="img-responsive"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-16.jpg"><img src="images/gallery-16.jpg" class="img-responsive"></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-17.jpg"><img src="images/gallery-17.jpg" class="img-responsive"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-18.jpg"><img src="images/gallery-18.jpg" class="img-responsive"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-19.jpg"><img src="images/gallery-19.jpg" class="img-responsive"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-20.jpg"><img src="images/gallery-20.jpg" class="img-responsive"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-21.jpg"><img src="images/gallery-21.jpg" class="img-responsive"></a>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>
 <!-- 
 	<div id="qbootstrap-press" data-section="blog">
 		<div class="container">
@@ -701,9 +503,9 @@
 	<!-- Waypoints -->
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- YTPlayer -->
-	<script src="js/jquery.mb.YTPlayer.min.js"></script>
+	<!-- <script src="js/jquery.mb.YTPlayer.min.js"></script> -->
 	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
 	<!-- Owl Carousel -->
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Parallax -->
