@@ -37,7 +37,9 @@
 		    animation: "fade",
 			slideshowSpeed: 2000,
 			animationSpeed: 4000,
-			smoothHeight: true,
+			smoothHeight: false,
+			controlNav: false,
+			directionNav: false
 		  });
 	};
 
